@@ -1,0 +1,9 @@
+{
+    "name": "ASP.NET 6 from the Ground Up",
+    "description": "Companion code for ASP.NET Ground Up Series",
+    "keywords": ["aspnet", "dotnet"],
+    "env": {
+	"PROJECT": "part1/project.json",
+	"BUILDPACK_URL": "https://github.com/heroku/aspnet-buildpack"
+    }
+}
