@@ -1,6 +1,6 @@
 using Microsoft.Data.Entity;
 
-public class Part3DbContext : DbContext
+public class GroundUpDbContext : DbContext
 {
     DbSet<TodoItem> Todos {get; set;}
 
