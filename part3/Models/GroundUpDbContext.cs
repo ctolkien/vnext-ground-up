@@ -2,7 +2,7 @@ using Microsoft.Data.Entity;
 
 public class GroundUpDbContext : DbContext
 {
-    DbSet<TodoItem> Todos {get; set;}
+    public DbSet<TodoItem> Todos {get; set;}
 
     protected override void OnConfiguring(DbContextOptions builder)
     {

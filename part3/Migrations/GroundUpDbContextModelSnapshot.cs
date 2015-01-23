@@ -13,7 +13,7 @@ namespace part3.Migrations
             get
             {
                 var builder = new BasicModelBuilder();
-                
+
                 builder.Entity("TodoItem", b =>
                     {
                         b.Property<string>("Description");
@@ -21,7 +21,7 @@ namespace part3.Migrations
                             .GenerateValueOnAdd();
                         b.Key("Id");
                     });
-                
+
                 return builder.Model;
             }
         }
