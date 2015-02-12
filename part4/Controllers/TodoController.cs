@@ -76,7 +76,7 @@ namespace part4.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.ChangeTracker.Entry(todoItem).State = EntityState.Modified;
+                //db.ChangeTracker.Entry(todoItem).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
